@@ -1,8 +1,9 @@
 :root {
-  --color-background-light: #09090B;
-  --color-background-dark: #040405;
+  --color-background-light: #161515d2;
+  --color-background-dark: #000000;
   --red:#e61f1f;
   --red-light:#eb4646;
+  --white: #FFFFFF;
 }
 
 * {
@@ -18,16 +19,15 @@ html{
 body {
   overflow-x: hidden;
   font-size: 1.6rem;
-  font-family: 'Archivo', sans-serif;
-  background-color: var(--color-background-light);
-  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--white);
 }
 
 h1 {
   text-transform: uppercase;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 4.8rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h2,h3,h4,h5,h6 {

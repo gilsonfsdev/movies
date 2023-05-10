@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo{
+  display: flex;
+}
+
+.title {
+  color: var(--color-background-dark);
+  font-size: 3rem;
+  letter-spacing: 12px;
+}
+
+.title_icon{
+  color: red;
+  font-size:3.5rem;
+  margin-right: 12px;
+}
+
