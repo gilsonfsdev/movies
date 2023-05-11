@@ -6,7 +6,10 @@
   display: flex;
   gap: 12px;
   max-width: 800px;
+  width: 80%;
+  background-color: var(--white);
 }
+
 
 .img{
   height: 400px;

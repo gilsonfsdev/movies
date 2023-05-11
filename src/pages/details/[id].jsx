@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { APIkey } from '@/config/key';
 import DetailCard from '@/components/DetailCard';
 import Header from '@/components/Header';
+import styles from '../../styles/DetailCard.module.css'
 
 const Details = () => {
 
@@ -34,13 +35,13 @@ const Details = () => {
   return (
     <>
       <Header />
-      <DetailCard 
-        id={movie.id} 
-        title={movie.title} 
-        sinopse={movie.sinopse}
-        image={movie.image}
-        releaseDate={movie.releaseDate}
-      />
+        <DetailCard 
+          id={movie.id} 
+          title={movie.title} 
+          sinopse={movie.sinopse}
+          image={movie.image}
+          releaseDate={movie.releaseDate}
+        />
     </>
   )
 }
