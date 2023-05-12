@@ -10,7 +10,7 @@ const Header = () => {
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <h1 className={styles.title}>m<span className={styles.title_icon}><BsFillPlayCircleFill/></span>vies</h1>
-          <BiCameraMovie/>
+          <BiCameraMovie className={styles.camera}/>
         </div>
       </nav>
     </header>

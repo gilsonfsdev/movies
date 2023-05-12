@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { APIkey } from '@/config/key';
-import DetailCard from '@/components/DetailCard';
+// component
 import Header from '@/components/Header';
+import DetailCard from '@/components/DetailCard';
+
+// style
 import styles from '../../styles/DetailCard.module.css'
 
 const Details = () => {

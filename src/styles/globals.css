@@ -1,15 +1,23 @@
 :root {
-  --color-background-light: #161515d2;
-  --color-background-dark: #000000;
   --red:#e61f1f;
-  --red-light:#eb4646;
-  --white: #ffffff;
-  --background: #e9e3e3;
+  --white: #e0d3d3;
+  --background: #141414;
+  --background-light:#3d3d3dd2;
+  --color-background-light: #09090b;
+  --color-background-dark: #040405;  
 }
 
 * {
   padding: 0;
   margin: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+  border-radius: 6px;
+}
+::-webkit-scrollbar {
+  width: 8px;
 }
 
 html{
@@ -21,7 +29,8 @@ body {
   overflow-x: hidden;
   font-size: 1.6rem;
   font-family: 'Rubik', sans-serif;
-  background-image: linear-gradient(to right, #ffffff, #bcbcbc, #7c7c7c, #434343, #0f0f0f);}
+  background-color: var(--color-background-dark); 
+}
 
   h1 {
   text-transform: uppercase;

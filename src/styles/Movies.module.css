@@ -3,6 +3,8 @@
   justify-content: center;
   align-items: center;
   padding: 20px 50px;
+  border-bottom: 1px solid red;
+  border-width: 2px;
 }
 
 .logo{
@@ -10,9 +12,13 @@
 }
 
 .title {
-  color: var(--color-background-dark);
+  color: var(--white);
   font-size: 3rem;
   letter-spacing: 12px;
+}
+
+.camera{
+  color: var(--red);
 }
 
 .title_icon{
@@ -20,4 +26,5 @@
   font-size:3.5rem;
   margin-right: 12px;
 }
+
 
